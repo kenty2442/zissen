@@ -1,25 +1,9 @@
-.inner{
-    position:relative;
-}
-
-.title{
-    position: absolute;
-    top:260px;
-    left:100px;
-    font-family: Roboto;
-
-    &::after{
-        display: inline-block;
-        content:"";
-        width: 100px;
-        margin: 5px 22px;
-        border-top:1px solid #707070;
-    }
-}
-.concept-wrap{
+#concept{
     background:linear-gradient(180deg, #A193861F 0%, #A193861F 50%, #A1938689 50%, #A1938689 100%);
-    
-    
+}
+
+.concept-wrap{
+        
     h2{
         width: 450px;
         margin:90px 6px 130px 170px;
@@ -30,6 +14,7 @@
     }
 
     p{
+        height:130px;
         width: 420px;
         margin: 90px 180px 60px 0;
         font-family: ヒラギノ角ゴ Pro;
@@ -39,6 +24,7 @@
 }
 
 .concept-img{
+    width: 100%;
     display: flex;
     justify-content: center;
     padding-top:290px;

@@ -1,0 +1,32 @@
+
+/* 共通部分 */
+html{
+    font-size: 62.5%; //10px=1remになる
+}
+
+body{
+    font-size:12px;
+    line-height:1.67;
+}
+
+.title{
+    font-size:1.8rem;
+    position: absolute;
+    top:260px;
+    left:100px;
+    font-family: Roboto;
+
+    &::after{
+        display: inline-block;
+        content:"";
+        width: 100px;
+        margin: 5px 22px;
+        border-top:1px solid #707070;
+    }
+}
+
+.inner{
+    position: relative;
+    width: 80%;
+    margin:0 auto;
+}
