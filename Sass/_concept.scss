@@ -3,12 +3,17 @@
     background:linear-gradient(180deg,#A193861F 0%,#A193861F 50%,#A1938689 50%, #A1938689 100%);
 }
 
-
 .concept-img{
-    width: 100%;
-    height:400px;
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
+}
+
+.img-1{
+    width: 60%;
+}
+
+.img-2{
+    width: 37%;
 }
 
 .text{
