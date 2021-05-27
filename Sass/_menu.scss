@@ -1,10 +1,29 @@
+#menu{
+    padding-top:290px;
+}
 
 .menu-wrap{
     display: flex;
+    justify-content: space-between;
 }
 
-
-.menu-item-img{
-    padding-top:300px;
+.menu-item{
+    width: 271px;
     text-align: center;
+    font-family: Roboto Mono for Powerline;
+}
+
+.menu-item-title{
+    font-size: 3rem;
+    padding:37px 0 34px;
+}
+
+.menu-item-desc{
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+.menu-price{
+    padding:34px 0 90px;
+    text-align: right;
 }

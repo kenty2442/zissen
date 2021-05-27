@@ -1,39 +1,31 @@
 #concept{
-    background:linear-gradient(180deg, #A193861F 0%, #A193861F 50%, #A1938689 50%, #A1938689 100%);
+    padding-top:290px;
+    background:linear-gradient(180deg,#A193861F 0%,#A193861F 50%,#A1938689 50%, #A1938689 100%);
 }
 
-.concept-wrap{
-        
-    h2{
-        width: 450px;
-        margin:90px 6px 130px 170px;
-        font-size: 40px;
-        line-height: 42px;
-        font-family: ヒラギノ明朝 Pro;
-        color:#fff;
-    }
-
-    p{
-        height:130px;
-        width: 420px;
-        margin: 90px 180px 60px 0;
-        font-family: ヒラギノ角ゴ Pro;
-        font-size: 16px;
-        color:#fff;
-    }
-}
 
 .concept-img{
     width: 100%;
+    height:400px;
     display: flex;
-    justify-content: center;
-    padding-top:290px;
-}
-
-.img-1{
-    padding-right:11px;
+   justify-content: space-between;
 }
 
 .text{
     display: flex;
+    justify-content: space-around;
+    padding:70px 0 65px;
+    color:#fff;
+    h2{
+        width:36%;
+        margin-top:10px;
+        font-size: 4rem;
+        font-family: ヒラギノ明朝 Pro;
+    }
+
+    p{
+        width: 40%;
+        font-size: 1.6rem;
+        font-family: ヒラギノ角ゴ Pro;
+    }
 }

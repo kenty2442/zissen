@@ -1,0 +1,39 @@
+footer{
+    font-family: Roboto Mono for Powerline;
+}
+
+.footer-wrap{
+    display: flex;
+    margin:80px 0 60px;
+}
+
+.line{
+    margin-top:165px;
+    color:#70707036;
+}
+
+.footer-title{
+    font-size: 3.2rem;
+    color:#7070704D;
+    padding-right: 20px;
+}
+
+.icon{
+    margin:auto 0;
+}
+
+.size{
+    font-size: 2rem;
+}
+
+.fab{
+    margin-right: 9px;
+}
+
+.footer-btn{
+    width: 20%;
+    color:#707070;
+    border-color:#707070 ;
+    background-color:#fff;
+    margin-left: auto;
+}
