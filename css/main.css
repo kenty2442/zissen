@@ -300,27 +300,33 @@ header nav ul {
   width: 100%;
   padding-top: 15%;
   background-color: #A193861F;
-  position: relative;
+}
+
+.access-title {
+  padding-left: 10%;
 }
 
 .google-map {
   height: 0;
   overflow: hidden;
-  padding-bottom: 56.25%;
+  padding-bottom: 30%;
   position: relative;
   background-color: #D0C5BA;
 }
 
 .google-map iframe {
-  left: 40%;
+  position: absolute;
+  left: 35%;
   top: 0;
   height: 100%;
   width: 100%;
-  position: absolute;
 }
 
 .access-desc {
   width: 30%;
+  padding-left: 10%;
+  padding-top: 6%;
+  text-align: left;
 }
 
 .access-desc h2 {

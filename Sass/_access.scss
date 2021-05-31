@@ -2,27 +2,39 @@
     width: 100%;
     padding-top:15%;
     background-color:#A193861F;
-    position: relative;
 }
 
+.access-title{
+    padding-left: 10%;
+}
+
+
+
 .google-map{
-    height: 0;
+    height:0;
     overflow: hidden;
-    padding-bottom: 56.25%;
-    position:relative;
+    padding-bottom: 30%;
+    position: relative;
     background-color: #D0C5BA;
 
     iframe{
-        left: 40%;
+        position: absolute;
+        left: 35%;
         top: 0;
         height: 100%;
         width: 100%;
-        position: absolute;
+        
+
     }
 }
 
 .access-desc{
+    
     width: 30%;
+    padding-left: 10%;
+    padding-top:6%;
+    text-align:left;
+
     h2{
         font-size: 2.4rem;
         color:#00000038;
