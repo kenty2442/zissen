@@ -169,7 +169,7 @@ header {
 }
 
 header nav {
-  width: 40%;
+  width: 30%;
   padding-left: 20px;
   font-size: 1.8rem;
   color: #707070;
@@ -300,18 +300,27 @@ header nav ul {
   width: 100%;
   padding-top: 15%;
   background-color: #A193861F;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
 }
 
-.access-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.google-map {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
   background-color: #D0C5BA;
-  margin: 0 calc(50% - 50vw);
-  padding: 0 calc(50vw - 50%);
+}
+
+.google-map iframe {
+  left: 40%;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.access-desc {
+  width: 30%;
 }
 
 .access-desc h2 {
@@ -324,10 +333,6 @@ header nav ul {
   font-size: 1.6rem;
   color: #fff;
   line-height: 3.5rem;
-}
-
-.google-map-wrap {
-  width: 100%;
 }
 
 footer {
